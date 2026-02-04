@@ -1,0 +1,16 @@
+{
+  "name": "jellyfin-version-stats",
+  "description": "Daily statistics of Jellyfin server versions from Axiom logs",
+  "license": "Apache-2.0",
+  "module": "generateReport.ts",
+  "type": "module",
+  "scripts": {
+    "query": "bun run generateReport.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
